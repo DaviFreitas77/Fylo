@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Onest:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --corTitle: #555;
+  --corText: #ccc;
+  --corPrimary: #27b9a4;
+  --corSecondary: #6273ff;
+}
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Onest", sans-serif;
+}
+header {
+  background: url(/images/bg-header-desktop.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header figure {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+header figure img {
+  width: 90px;
+}
+.asideHeader {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+.asideHeader > div {
+  max-width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 0 20px;
+  max-width: 600px;
+}
+.asideHeader > div h1 {
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: var(--corTitle);
+  font-size: 1.8rem;
+}
+.asideHeader > div p {
+  color: var(--corText);
+  padding: 0 20px;
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+.asideHeader .btns {
+  display: flex !important;
+  flex-direction: row;
+  padding: 0;
+  width: 100%;
+}
+.btns button {
+  border-radius: 25px;
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn1 {
+  background-color: var(--corPrimary);
+  box-shadow: 2px 4px 5px #27b9a338;
+}
+.btn2 {
+  background-color: var(--corSecondary);
+  box-shadow: 2px 4px 5px #6273ff38;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 90px;
+  flex-direction: column;
+}
+
+main div h2 {
+  color: var(--corTitle);
+  font-weight: 600;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+}
+main div p {
+  color: var(--corText);
+  line-height: 1.5rem;
+}
+main > div:nth-child(1) {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  text-align: center;
+}
+main section {
+  display: flex;
+}
+.section1 figure img {
+  max-width: 800px;
+  width: 100%;
+}
+.section1 {
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-top: 60px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: flex-start;
+  height: 350px;
+}
+.text > div {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.text div div {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: start;
+  width: 100%;
+}
+.text > div div {
+  text-align: left;
+  width: 100%;
+}
+.text h4{
+  color: var(--corTitle);
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.text p {
+  font-size:0.7rem;
+}
+.section2 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.section2 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+}
+.section2 div h2 {
+  font-size: 1.7rem;
+  color: var(--corTitle);
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.section2 div p {
+  text-align: center;
+}
+.section2 figure {
+  max-width: 100%;
+  margin-top: 90px;
+}
+.section2 figure img {
+  max-width: 100%;
+}
+.section3 > h2 {
+  font-size: 1.7rem;
+  color: var(--corTitle);
+  font-weight: 500;
+}
+.section3 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+.observations {
+  margin-top: 20px;
+  width: 100%;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.observations div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+.observations div figure img {
+  width: 30px;
+}
+.observations div h4 {
+  font-weight: 600;
+  color: var(--corTitle);
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+.observations div p {
+  font-size: 14px;
+  text-align: center;
+  max-width: 250px;
+}
+.section3 > p {
+  color: var(--corText);
+}
+.section3 > div {
+  display: flex !important;
+  max-width: 900px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.listLogo {
+  width: 100%;
+  max-width: 800px !important;
+  display: flex;
+}
+.listLogo ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+
+.listLogo ul li img {
+  width: 100px; 
+}
+.section4 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.section4 div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section4 p {
+  max-width: 600px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.section4 h1 {
+  font-size: 27px;
+  color: var(--corTitle);
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 90px;
+}
+.section4 .btns {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  margin: 100px auto 0 0 !important;
+  width: 100%;
+  background-color: #f7f7f7;
+  display: flex !important;
+  padding: 30px 0px !important;
+  justify-content: center;
+}
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+}
+.divlists{
+  display: flex;
+  width: 100%;
+  gap: 100px;
+}
+.divlists ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 16px;
+  max-width: 395px;
+  justify-content: left;
+}
+.divlists li{
+  display: flex;
+  width: 120px;
+  color:#555;
+}
+
+.divlists figure img{
+  width: 50px;
+}
+ 
+.social-midia ul{
+  display: flex;
+  gap: 24px;
+}
+.opacity:hover{
+  opacity: 0.6;
+
+}
+.opacity{
+  transition: 0.4s;
+}
+.opacity2:hover{
+  color: #27b9a4;
+  
+}
+.opacity2{
+  transition: 0.4s;
+}
+
+
+@media (max-width: 570px){
+  .listLogo ul{
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 25px;
+  }
+  .divlists, footer > div, .divlists ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+  }
+
+
+
+}
